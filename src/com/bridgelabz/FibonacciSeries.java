@@ -17,6 +17,5 @@ public class FibonacciSeries {
             num2 = num3;
             System.out.print(" "+num3);
         }
-
     }
 }
