@@ -11,15 +11,9 @@ public class StopWatch {
         System.out.print("Enter any number to stop : ");
         long stop = scanner.nextLong();
         stop = System.currentTimeMillis();
-        long difference;
 
-        if (stop == 0){
-            long now = System.currentTimeMillis();
-            difference = now - start;
-        }else{
-            difference = stop - start;
-        }
-
+//Measure the elapsed time between start and end
+        long difference = stop - start;
         long mils = difference % 1000;
 
         System.out.println("Elapsed time : " + mils + " m secs");
