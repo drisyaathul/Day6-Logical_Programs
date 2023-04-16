@@ -15,7 +15,7 @@ public class MonthlyPayment {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the Principle : ");
         double p = scanner.nextInt();
-        System.out.println("Enter the Year : ");
+        System.out.println("Enter the number of Years : ");
         double y = scanner.nextInt();
         System.out.println("Enter the Rate : ");
         double r = scanner.nextInt();
